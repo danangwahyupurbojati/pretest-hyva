@@ -43,19 +43,19 @@ module.exports = hyvaModules.mergeTailwindConfig({
       },
       colors: {
         primary: {
-          50: "#FFF4FD",
-          100: "#FFE8FC",
-          200: "#FED0F6",
-          300: "#FCABEB",
-          400: "#F979DC",
-          500: "#EE47C7",
-          600: "#D227A7",
-          700: "#BE1F93",
-          800: "#8F196E",
-          900: "#751A59",
-          lighter: "#D227A7",
-          "DEFAULT": "#BE1F93",
-          darker: "#8F196E"
+          50: "#ecf2ff",
+          100: "#dce7ff",
+          200: "#c1d1ff",
+          300: "#9bb2ff",
+          400: "#7387ff",
+          500: "#525eff",
+          600: "#3533f8",
+          700: "#2c27db",
+          800: "#232486",
+          900: "#161551",
+          lighter: "#3533f8",
+          "DEFAULT": "#232486",
+          darker: "#232486"
         },
         secondary: {
           50: "#f7f6fd",
@@ -289,5 +289,7 @@ module.exports = hyvaModules.mergeTailwindConfig({
     '../../../../../../../app/code/**/*.phtml',
     // project-level phtml files
     '../../../../../../../vendor/icube-mage/**/*.phtml', 
+    '../../../../../../../vendor/icubebysirclo/**/*.phtml', 
+    '../../../../../../../vendor/icubebysirclo/**/*.xml', 
   ]
 });
